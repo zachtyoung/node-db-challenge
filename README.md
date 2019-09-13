@@ -40,12 +40,20 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+      So relational databases are databases that store their data in tables. While SQL is the language we use to query those tables.
+
 - [ ] Why do tables need a `primary key`?
+
+      A primary key is a way to uniquely identify each entry in the database so we can access them.
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+      Foreign key
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
 
+       an intermediary table that holds foreign keys that reference the primary key on the related tables
+       
 ## Minimum Viable Product
 
 Take the steps necessary to complete the project from scratch. Start by initializing your project with a `package.json` and go from there.

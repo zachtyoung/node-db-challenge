@@ -1,0 +1,28 @@
+{
+  "name": "node-bb-challenge",
+  "version": "1.0.0",
+  "description": "node-db-challenge",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachtyoung/node-db-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zachtyoung/node-db-challenge/issues"
+  },
+  "homepage": "https://github.com/zachtyoung/node-db-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.19.4",
+    "knex-cleaner": "^1.3.0",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
